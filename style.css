@@ -6,6 +6,28 @@
     font-family: 'Lexend Deca' , sans-serif;
 }
 
+#loguin_buttonhome{
+    display: flex;
+    border-radius: 50px;
+
+}
+
+#loguin_buttonhome :hover{
+    padding: 10px;
+    color:white;
+    font-family: 'Saira Condensed', sans-serif; ;
+    background-color: #1B77F3;
+    border-radius: 50px;
+  
+    
+}
+#botaologo{
+    text-decoration: none;
+    padding: 10px;
+   
+
+}
+
 :root {
     --white: #FFF;
     --whitesmoke: #F9F9F9;
