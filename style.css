@@ -48,6 +48,9 @@
     width: 100%;   
     max-width: 500px;
     min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);  /* (usa-se para limitar parte impedindo dela
+    ir muito clamp(min, preferencia, max)*/
+    /* */
 
 }
 
@@ -58,20 +61,111 @@
 
 }
 .login_title {
-color: var(--deep-grey);
+color: var(--deep-gre--);
+font-size: 1.5em;
+margin-bottom: 30px; /* espaço entre tirulo e input*/
 
 }
 
+.login_label{
+    
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
 
+.input{
+width: 100%;
+background-color: var(--light-grey);
+border: 2px solid rgba(0, 0, 0, 0); /* soluciona problema da borda que come px e expande a caixa de baixo
+dando efeito feito, precisa do rgba para dar efeito trasnparente quando clica e chama 
+a boder do unput:focus*/
+border-radius: 5px;
+outline: none;
+font-size: 0.9em;
+padding: 25px 10px 10px;
+font-weight:  600;
+color: var(--deep-grey);
+}
 
+.login_label span{
+position: absolute; /* puxa pro centro o texto (caixinha sei la)*/
+font-size: 0.8em;
+font-weight: 700;
+text-transform: uppercase;
+color: var(--medium-grey);
+margin: 20px;
+cursor: text; /* mudar curdor pra tipo texto quando passar em cima*/
+transition: all 200ms ease;
+}
 
+input:focus {
+    background-color: var(--whitesmoke);
+    border: 2px solid var(--deep-grey);
 
+}
 
+.login_label .span-active{
+    font-size: 0.7em;
+     margin: 8px 10px;
+}
 
+.login_icons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
 
+  }
 
+.login_icons img {
+    width: 20px;
+  }
+  .icons_button {
+    
+        width: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    
+  }
+  
 
+  /* cores dos botoes filho 1  filho 2  e filho 3 dos login icon que no
+  caso são os icons button*/
+ .login_icons .icons_button:nth-child(1) {
+    background-color: var(--blue);
+ }
 
+ .login_icons .icons_button:nth-child(2) {
+    background-color: var(--black);
+ }
+ .login_icons .icons_button:nth-child(3) {
+    background-color: var(--light-grey);
+ }
+
+.login_label--checkbox {
+
+    width: 100%;
+    margin: 15px 0 50px;
+    font-size:  0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+.input--checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: var(--light-grey);
+  margin-right: 8px;
+  border-radius: 3px;
+}
 
 
 
