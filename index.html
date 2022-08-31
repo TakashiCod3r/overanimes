@@ -9,8 +9,6 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <script src="script.js" defer></script>
-
     <link rel="icon" href="imagens/icone-pagina.ico">
 
 </head>
@@ -18,7 +16,14 @@
 <body class="container">
 
     <header class="header">
-        <a href="/"> logo</a>
+      
+            <div class="logosite">
+                <a href="./index.html">
+                    <img src="./imagens/logosite.png" alt="logo do site">
+                </a>
+     
+      </div>
+        
         <nav>
             <ul class="menu">
                 <li><a href="/"> Sobre</a></li>
@@ -28,12 +33,59 @@
         </nav>
     </header>
 
-    <section class="videoshome">
+    <div class="slider">
+
+        <div class="slides">
+
+            <!---radios butons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
 
 
+            <!--- fim radios butons-->
 
-    </section>
 
+            <!---slide image-->
+            <div class="slide first">
+                <img src="./imagens/slide1.jpg" alt="imag1">
+            </div>
+            <div class="slide">
+                <img src="./imagens/slide2.jpg" alt="imag2">
+            </div>
+            <div class="slide">
+                <img src="./imagens/slide3.jpg" alt="imag3">
+            </div>
+            <div class="slide">
+                <img src="./imagens/slide5.png" alt="imag4">
+            </div>
+    <!--- fim slide image-->
+
+        <!---navigation auto-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+
+        </div>
+
+<!--- manual navigation-->
+<div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+
+</div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>

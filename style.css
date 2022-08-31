@@ -8,6 +8,18 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -34,7 +46,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .menu  {
@@ -48,7 +60,119 @@ display: flex;
 .menu li  a {
     display: block;
     padding:10px;
-    background: tomato;
+   
+}
+
+.logosite{
+
+ position: relative;
+ margin-left: 100px;
+ padding: 0;
+ align-items: center;
+}
+.logosite img{
+ width:183px;
+ height: 83px;
+ margin: 0;
+ border:0px;
+}
+
+
+/* slides*/
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+
+}
+
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation {
+   position:absolute;
+   width: 800px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: red;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: red;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: red;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: red;
 }
 
 
@@ -63,6 +187,9 @@ display: flex;
 
 
 
+
+
+/*----------------------------------------------------------- tela loguin--------------------------------------------------------*/
 #loguin_buttonhome {
     display: flex;
     border-radius: 50px;
@@ -311,3 +438,22 @@ input:focus {
     flex: 1;
 
 }
+
+
+/*-----------------------------tela cadastro------------------------------------------------------------------------------*/
+
+#tela__cadastro  {
+width: 100vw;
+height: 100vh;
+  background-size: cover;
+   background: linear-gradient(0, #120c56, #000000);
+   color: white;
+}
+
+#tela__cadastro h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+

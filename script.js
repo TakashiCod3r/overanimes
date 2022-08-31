@@ -1,3 +1,6 @@
+
+
+
 const inputs = document.querySelectorAll('.input');
 const button = document.querySelector('.login_button')
 
@@ -29,3 +32,21 @@ button.removeAttribute('disabled');
 inputs.forEach((input) => input.addEventListener('focus', handleFocus)); 
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut)); 
 inputs.forEach((input) => input.addEventListener('input', handleChange)); 
+
+
+
+let count =1;
+
+document.getElementById("radio1").checked = true;
+
+setInterval(function(){
+nextImage();
+},2000)
+
+function nextImage(){
+  count++;
+  if(count>4){
+    count =1;
+  }
+  document.getElementById("radio"+count).checked = true;
+}
