@@ -25,6 +25,7 @@
     height: 100vh;
     background-image: url(./imagens/capahome.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body, ul, li p {
@@ -59,7 +60,8 @@ display: flex;
 }
 .menu li  a {
     display: block;
-    padding:10px;
+    padding:20px;
+    margin-right: 10px;
    
 }
 
@@ -175,8 +177,16 @@ display: flex;
     background-color: red;
 }
 
-
-
+.master{
+    margin: auto;
+    width: 1000px;
+    height: 1000px
+    
+    
+}
+.master img{
+    width: 1000px;
+}
 
 
 
