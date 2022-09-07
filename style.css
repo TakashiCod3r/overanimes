@@ -498,4 +498,142 @@ height: 100vh;
     margin-top: 20px;
 }
 
+/*--------------------- pag motivacional---------------------------*/
+#motivacional{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+color: #555;
+}
+.top-bar img{
+    width: 100px;
+margin: auto;
 
+}
+.top-bar{
+    background-color: #343434;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    border-bottom: 5px solid #fd8a24;
+ 
+  
+}
+
+
+.container-motivacional{
+max-width: 888px;
+margin: auto;
+padding: 30px;
+}
+
+.header-motv{
+
+}
+
+.headline{
+font-size: 56px;
+line-height: 64px;
+color: #111;
+margin-bottom: 10px;
+}
+.sub-motv{
+    font-weight: normal;
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.author-motv{
+font-weight: bold;
+font-size: 0.8em;
+
+}
+
+.social-icons{
+    margin-top: 10px;
+}
+
+.social-icon{
+    width: 30px;
+    padding: 10px 10px 10px 0;
+
+
+
+}
+
+.content-motv{
+    max-width: 648px;
+    margin: auto;
+    
+}
+
+.p-mt{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.figure-mtv{
+    padding: 0;
+    margin: 20px 0;
+    font-size: 12px;
+
+}
+
+
+figure>img{
+    margin-top: 10px;
+width: 100%;
+}
+.list-mtv{
+    margin-top: 10px;
+    list-style-type:disc;
+    text-align: justify;
+}
+.sub-mtv2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#img-mtv0{
+    width:600px;
+}
+#img-mtv1{
+   width: 400px;
+}
+#img-mtv2{
+    width: 600px;
+ }#img-mtv3{
+    width: 500px;
+ }#img-mtv4{
+    width: 500px;
+ }
+
+.footer-mtv{
+    background-color:  #333;
+
+}
+.img-footer img{
+    margin-top: -10px;
+    width: 100px;
+}
+.footer-overanimes{
+    padding: 10px;
+    color: #FFF;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.creditos{
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+
+
+}
+.creditos a{
+    color: violet;
+}
