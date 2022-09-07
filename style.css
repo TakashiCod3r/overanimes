@@ -83,13 +83,13 @@ display: flex;
 /* slides*/
 .slider {
     margin: 0 auto;
-    width: 800px;
+    width: 1200px;
     height: 400px;
     overflow: hidden;
 }
 
 .slides {
-    width: 400%;
+    width: 600%;
     height: 400px;
     display: flex;
 }
@@ -105,7 +105,9 @@ display: flex;
 }
 
 .slide img{
-    width: 800px;
+    margin: auto;
+    width: 1200px;
+
 }
 
 .manual-navigation {
@@ -178,14 +180,44 @@ display: flex;
 }
 
 .master{
-    margin: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
     height: 1000px
     
     
 }
 .master img{
-    width: 1000px;
+    width: 100%;
+}
+
+.animes-recentes{
+    background-color: blue;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+    border: 1px solid black;
+    border-bottom: #CF3C3F;
+    border-radius: 5px;
+}
+
+.ver-mais{
+    background-color: #1B77F3;
+    padding: 10px;
+    border-radius: 5pxpx;
+}
+
+.ver-mais button{
+    margin-left:850px;
+    background-color: #FFF;
+    border: none;
+    width: 90px;
+    height: 20px;
+}
+.ver-mais button:hover{
+    background-color: #CF3C3F;
 }
 
 
